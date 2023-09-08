@@ -1,0 +1,60 @@
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .container {
+    max-width: 120rem;
+  }
+}
+/* BELOW 900X(Smaller desktops */
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+  .list-features {
+    font-size: 2.4rem;
+    /* background-color: aqua; */
+  }
+  .utility-list {
+    font-size: 1rem;
+  }
+}
+/* Below 450 */
+@media (max-width: 28em) {
+  html {
+    font-size: 44%;
+  }
+  .main-nav-list {
+    gap: 1rem;
+  }
+  .jungle-link-cta:link,
+  .jugle-link-cta:visited {
+    padding: 0.6rem 1.2rem;
+  }
+  .sub-heading {
+    font-size: 2.4rem;
+  }
+  .team-name {
+    font-size: 1.2rem;
+  }
+  .btn-text {
+    padding: 0.2rem 0.4rem;
+    font-size: 1.4rem;
+  }
+}
+/* below350px */
+@media (max-width: 22em) {
+  html {
+    font-size: 30%;
+  }
+  .main-nav-list {
+    gap: 1rem;
+  }
+  .jungle-link-cta:link,
+  .jugle-link-cta:visited {
+    padding: 0.2rem 1rem;
+  }
+  .sub-heading {
+    font-size: 2.4rem;
+  }
+}
